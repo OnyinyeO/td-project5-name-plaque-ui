@@ -25,7 +25,7 @@ body {
   margin-top: -0.3rem;
 }
 
-/* @media screen and (max-width: 912px) {
+@media screen and (max-width: 912px) {
   .top {
     width: 70%;
     padding: 45px;
@@ -57,7 +57,7 @@ body {
     font-size: 0.7rem;
     font-style: oblique;
   }
-} */
+}
 /* INPUT SECTION */
 .guess {
   height: 3rem;
@@ -83,7 +83,7 @@ body {
   color: rgb(205, 195, 195);
   left: 30.2rem;
 }
-/* @media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .guess_placeholder {
     top: 20.3rem;
     left: 19rem;
@@ -177,7 +177,7 @@ body {
     width: 15rem;
     padding-left: 7rem;
   }
-} */
+}
 /* BOX SECTION */
 .container {
   font-family: "Courier New", Courier, monospace;
