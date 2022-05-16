@@ -1,0 +1,212 @@
+/* IST SECTION */
+
+/* @media screen and (max-width: 1400px) {
+  .top {
+    margin: 13vh auto auto auto;
+  }
+} */
+/* @media screen and (max-width: 912px) {
+  .top {
+    width: 70%;
+    padding: 45px;
+    font-size: large;
+  }
+  .name2 {
+    font-style: oblique;
+  } */
+/* } */
+@media screen and (max-width: 912px) {
+  .top {
+    width: 70%;
+    padding: 12px;
+    font-size: large;
+    margin: 13vh auto auto auto;
+  }
+  .name2 {
+    font-size: 1rem;
+    font-style: oblique;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .top {
+    width: 70%;
+    padding: 7px;
+    font-size: medium;
+    margin: 7vh auto auto auto;
+  }
+  .name2 {
+    font-size: 0.9rem;
+    font-style: oblique;
+  }
+}
+/* MEDIA QUERY END */
+
+/* INPUT SECTION */
+@media screen and (max-width: 1200px) {
+  .guess_placeholder {
+    top: 17rem;
+    left: 20rem;
+  }
+  .guess {
+    padding-left: 7rem;
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  .guess_placeholder {
+    top: 18.7rem;
+    left: 11rem;
+  }
+  .guess {
+    padding-left: 7rem;
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .guess_placeholder {
+    top: 20rem;
+    left: 12rem;
+    font-size: 13px;
+  }
+
+  .guess {
+    padding-left: 7rem;
+    width: 18rem;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .guess_placeholder {
+    top: 17.6rem;
+    left: 9rem;
+    font-size: 13px;
+  }
+
+  .guess {
+    padding-left: 7rem;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .guess_placeholder {
+    top: 17.2rem;
+    left: 8rem;
+    font-size: 12px;
+  }
+
+  .guess {
+    padding-left: 7rem;
+    width: 18rem;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .guess_placeholder {
+    top: 14.8rem;
+    left: 7rem;
+    font-size: 12px;
+  }
+
+  .guess {
+    width: 17rem;
+    padding-left: 7rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .guess_placeholder {
+    top: 19.5em;
+    left: 6em;
+    font-size: 12px;
+  }
+
+  .guess {
+    width: 15em;
+    padding-left: 7em;
+    border-radius: 6px;
+  }
+}
+/* MEDIA QUERY END */
+
+/* BOX SECTION */
+
+@media screen and (max-width: 700px) {
+  .container {
+    margin-left: -16rem;
+    max-width: 80px;
+    margin-top: 2rem;
+  }
+  .btn1 {
+    left: 22.7rem;
+    top: 11rem;
+  }
+  .btn2 {
+    left: 33rem;
+    top: 11rem;
+  }
+}
+@media screen and (max-width: 620px) {
+  .container {
+    margin-left: -17rem;
+    margin-top: 2rem;
+  }
+  .box {
+    width: 275px;
+  }
+
+  .box2 {
+    width: 250.2px;
+    left: 0.7rem;
+    top: 1rem;
+  }
+
+  .circle2 {
+    left: 37rem;
+  }
+
+  .name {
+    font-size: x-large;
+    font-weight: 900;
+    width: 249.2px;
+    left: 23.4rem;
+    top: 2.1rem;
+  }
+
+  .btn1 {
+    left: 22.7rem;
+    top: 11rem;
+  }
+  .btn2 {
+    left: 33rem;
+    top: 11rem;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .container {
+    margin-left: -18rem;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .container {
+    margin-left: -19rem;
+  }
+}
+/* MEDIA QUERY END */
+
+/* FOOTER */
+@media screen and (max-width: 912px) {
+  .foot {
+    margin-top: 19rem;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .foot {
+    margin-top: 50%;
+  }
+}

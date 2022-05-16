@@ -1,0 +1,158 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(56, 21, 56);
+  font-family: arial, sans-serif;
+}
+/* TOP SECTION */
+.top {
+  margin: 13vh auto auto auto;
+  width: 50%;
+  padding: 48px;
+  color: white;
+  font-size: large;
+  font-weight: 500;
+}
+
+.name2 {
+  font-size: 0.9rem;
+  margin-bottom: 1.3rem;
+  margin-top: -0.3rem;
+}
+
+/* INPUT SECTION */
+.guess {
+  height: 3rem;
+  width: 19rem;
+  border: none;
+  border-radius: 2px;
+  padding: 1rem;
+  border: 1px solid rgb(188, 184, 184);
+  background-color: rgb(56, 21, 56);
+  position: relative;
+  padding-left: 9rem;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.guess_placeholder {
+  position: absolute;
+  top: 19rem;
+  transform: translate(5px, -50%);
+  pointer-events: none;
+  transition: all 0.14s ease-in-out;
+  font-size: 16px;
+  color: rgb(205, 195, 195);
+  left: 30.5rem;
+}
+
+/* BOX SECTION */
+.container {
+  font-family: "Courier New", Courier, monospace;
+  margin-left: 100px;
+  max-width: 200px;
+  position: relative;
+  margin-top: -1rem;
+}
+
+.box {
+  width: 385px;
+  height: 155px;
+  background-color: rgb(157, 98, 157);
+  margin-left: 22.7rem;
+  position: relative;
+}
+
+.box2 {
+  width: 346px;
+  height: 120px;
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 22.7rem;
+  position: absolute;
+  left: 1.2rem;
+  top: 1rem;
+  box-shadow: 0px 3.7px 5px 2px rgba(26, 24, 24, 0.4);
+}
+
+.circle1 {
+  width: 20px;
+  height: 20px;
+  background: rgb(54, 7, 54);
+  border-radius: 50%;
+  border: 3.5px solid rgb(157, 98, 157);
+  position: absolute;
+  left: 24.7rem;
+  top: 1.5rem;
+}
+
+.circle2 {
+  width: 20px;
+  height: 20px;
+  background: rgb(54, 7, 54);
+  border-radius: 50%;
+  border: 3.5px solid rgb(157, 98, 157);
+  position: absolute;
+  left: 43.5rem;
+  top: 1.5rem;
+}
+
+.name {
+  font-size: xx-large;
+  font-weight: 900;
+  width: 346px;
+  height: 60px;
+  background-color: white;
+  text-align: center;
+  padding-top: 1rem;
+  position: absolute;
+  left: 23.9rem;
+  top: 1.5rem;
+  box-shadow: 0px 3.7px 5px 2px rgba(62, 62, 60, 0.4);
+}
+
+.btn1 {
+  width: 137px;
+  height: 43px;
+  background-color: white;
+  color: rgb(56, 115, 169);
+  padding: 10px;
+  padding-top: 0.9rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-style: oblique;
+  text-align: left;
+  border: none;
+  position: absolute;
+  left: 48rem;
+  top: 0rem;
+}
+.btn2 {
+  width: 110px;
+  height: 43px;
+  background-color: rgb(17, 141, 190);
+  padding: 15px;
+  color: white;
+  border: none;
+  font-weight: 700;
+  position: absolute;
+  left: 48rem;
+  top: 3.4rem;
+}
+.btn2:hover {
+  background-color: rgb(4, 181, 245);
+}
+
+/* FOOTER*/
+.foot {
+  font-size: small;
+  margin-top: 40%;
+  color: whitesmoke;
+  font-weight: 600;
+  text-align: center;
+  margin-left: 0%;
+}
