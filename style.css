@@ -10,7 +10,6 @@ body {
 }
 /* IST SECTION */
 .top {
-  /* max-width: 850px; */
   margin: 15vh auto auto auto;
   width: 50%;
   padding: 48px;
@@ -25,6 +24,7 @@ body {
   margin-top: -0.3rem;
 }
 
+/* MEDIA QUERY */
 @media screen and (max-width: 912px) {
   .top {
     width: 70%;
@@ -50,14 +50,17 @@ body {
 @media screen and (max-width: 460px) {
   .top {
     width: 80%;
-    padding: 5px;
+    padding: 7px;
     font-size: medium;
+    margin: 6vh auto auto auto;
   }
   .name2 {
-    font-size: 0.7rem;
+    font-size: 1rem;
     font-style: oblique;
   }
 }
+/* MEDIA QUERY END */
+
 /* INPUT SECTION */
 .guess {
   height: 3rem;
@@ -83,6 +86,8 @@ body {
   color: rgb(205, 195, 195);
   left: 30.2rem;
 }
+
+/* MEDIA QUERY */
 @media screen and (max-width: 1200px) {
   .guess_placeholder {
     top: 20.3rem;
@@ -168,7 +173,7 @@ body {
 }
 @media screen and (max-width: 460px) {
   .guess_placeholder {
-    top: 16.7rem;
+    top: 15.5rem;
     left: 4rem;
     font-size: 12px;
   }
@@ -178,11 +183,13 @@ body {
     padding-left: 7rem;
   }
 }
+/* MEDIA QUERY END */
+
 /* BOX SECTION */
 .container {
   font-family: "Courier New", Courier, monospace;
-  margin-left: 600rem;
-  /* max-width: 490px; */
+  margin-left: 100px;
+  max-width: 200px;
   position: relative;
   margin-top: -1rem;
 }
@@ -275,15 +282,47 @@ body {
   background-color: rgb(4, 181, 245);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 650px) {
   .container {
     font-family: "Courier New", Courier, monospace;
-    margin-left: 100px;
-    max-width: 200px;
-    position: relative;
-    margin-top: -1rem;
+    margin-left: -20rem;
+    max-width: 95px;
+    margin-top: 2rem;
+    display: flex;
+    justify-items: flex-start;
+  }
+  .box {
+    width: 275px;
+  }
+
+  .box2 {
+    width: 250.2px;
+    left: 0.9rem;
+    top: 1rem;
+  }
+
+  .circle2 {
+    left: 37.2rem;
+  }
+
+  .name {
+    font-size: x-large;
+    font-weight: 900;
+    width: 249.2px;
+    left: 23.6rem;
+    top: 2.1rem;
+  }
+
+  .btn1 {
+    left: 22.7rem;
+    top: 11rem;
+  }
+  .btn2 {
+    left: 33rem;
+    top: 11rem;
   }
 }
+
 /* FOOTER*/
 .foot {
   font-size: small;
@@ -292,4 +331,10 @@ body {
   font-weight: 600;
   text-align: center;
   margin-left: 0%;
+}
+
+@media screen and (max-width: 650px) {
+  .foot {
+    margin-top: 50%;
+  }
 }
