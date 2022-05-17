@@ -5,22 +5,18 @@
     margin: 13vh auto auto auto;
   }
 } */
-/* @media screen and (max-width: 912px) {
+/* @media screen and (max-width: 1300px) {
   .top {
     width: 70%;
-    padding: 45px;
+    padding: 14px;
     font-size: large;
   }
-  .name2 {
-    font-style: oblique;
-  } */
-/* } */
+} */
 @media screen and (max-width: 960px) {
   .top {
     width: 70%;
     padding: 12px;
     font-size: large;
-    margin: 13vh auto auto auto;
   }
   .name2 {
     font-size: 1rem;
@@ -43,21 +39,11 @@
 /* MEDIA QUERY END */
 
 /* INPUT SECTION */
-@media screen and (max-width: 1200px) {
-  .guess_placeholder {
-    top: 17rem;
-    left: 20rem;
-  }
-  .guess {
-    padding-left: 7rem;
-    width: 20rem;
-  }
-}
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1300px) {
   .guess_placeholder {
-    top: 17rem;
-    left: 10rem;
+    top: 16.2rem;
+    left: 12rem;
   }
 
   .guess {
@@ -65,19 +51,20 @@
     width: 20rem;
   }
 }
-
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 960px) {
   .guess_placeholder {
-    top: 17.6rem;
-    left: 9rem;
-    font-size: 13px;
+    top: 17.3rem;
+    left: 10.5rem;
+    font-size: 12px;
   }
 
   .guess {
     padding-left: 7rem;
+    width: 20rem;
   }
 }
-@media screen and (max-width: 770px) {
+
+@media screen and (max-width: 720px) {
   .guess_placeholder {
     top: 17.2rem;
     left: 8rem;
@@ -131,25 +118,21 @@
 
 /* BOX SECTION */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1300px) {
   .container {
-    margin-left: -13.9rem;
+    margin-left: -12rem;
     max-width: 80px;
     margin-top: 2rem;
   }
 }
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 955px) {
   .container {
-    margin-left: -15.1rem;
-    max-width: 80px;
-    margin-top: 2rem;
+    margin-left: -13.6rem;
   }
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 897px) {
   .container {
-    margin-left: -15.3rem;
-    max-width: 80px;
-    margin-top: 2rem;
+    margin-left: -14.3rem;
   }
   .box {
     width: 275px;
@@ -176,6 +159,13 @@
   }
   .btn2 {
     left: 41.2rem;
+  }
+}
+@media screen and (max-width: 744px) {
+  .container {
+    margin-left: -15.3rem;
+    max-width: 80px;
+    margin-top: 2rem;
   }
 }
 @media screen and (max-width: 715px) {
