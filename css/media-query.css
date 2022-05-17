@@ -31,7 +31,14 @@
 
 /* INPUT SECTION */
 
-@media screen and (min-width: 1090px) {
+@media screen and (min-width: 1400px) {
+  .guess_placeholder {
+    left: 22.5rem;
+    top: 18rem;
+    padding-top: 2rem;
+  }
+}
+@media screen and (max-width: 1400px) {
   .guess_placeholder {
     top: 18.2rem;
     left: 22.4rem;
