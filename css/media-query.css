@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 1090px) {
   .top {
-    margin-left: 22rem;
+    margin-left: 18rem;
   }
 }
 @media screen and (max-width: 960px) {
@@ -34,7 +34,7 @@
 @media screen and (min-width: 1090px) {
   .guess_placeholder {
     top: 18.2rem;
-    left: 26.5rem;
+    left: 22.4rem;
   }
 }
 @media screen and (max-width: 1090px) {
@@ -124,7 +124,7 @@
 
 @media screen and (min-width: 1090px) {
   .container {
-    margin-left: 2.3rem;
+    margin-left: -1.8rem;
     max-width: 80px;
   }
 }
