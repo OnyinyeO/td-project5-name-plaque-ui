@@ -1,20 +1,12 @@
 /* IST SECTION */
 
-/* @media screen and (max-width: 1400px) {
+@media screen and (min-width: 1090px) {
   .top {
-    margin: 13vh auto auto auto;
+    margin-left: 22rem;
   }
-} */
-/* @media screen and (max-width: 1300px) {
-  .top {
-    width: 70%;
-    padding: 14px;
-    font-size: large;
-  }
-} */
+}
 @media screen and (max-width: 960px) {
   .top {
-    width: 70%;
     padding: 12px;
     font-size: large;
   }
@@ -26,7 +18,6 @@
 
 @media screen and (max-width: 460px) {
   .top {
-    width: 70%;
     padding: 7px;
     font-size: medium;
     margin: 7vh auto auto auto;
@@ -40,17 +31,35 @@
 
 /* INPUT SECTION */
 
-@media screen and (max-width: 1300px) {
+@media screen and (min-width: 1090px) {
   .guess_placeholder {
-    top: 16.2rem;
-    left: 12rem;
+    top: 18.2rem;
+    left: 26.5rem;
+  }
+}
+@media screen and (max-width: 1090px) {
+  .guess_placeholder {
+    top: 18.3rem;
+    left: 14rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .guess_placeholder {
+    top: 18.3rem;
+    left: 14rem;
   }
 
   .guess {
-    padding-left: 7rem;
     width: 20rem;
   }
 }
+
+@media screen and (max-width: 986px) {
+  .guess_placeholder {
+    top: 19.2rem;
+  }
+}
+
 @media screen and (max-width: 960px) {
   .guess_placeholder {
     top: 17.3rem;
@@ -60,7 +69,6 @@
 
   .guess {
     padding-left: 7rem;
-    width: 20rem;
   }
 }
 
@@ -72,7 +80,6 @@
   }
 
   .guess {
-    padding-left: 7rem;
     width: 18rem;
   }
 }
@@ -86,19 +93,17 @@
 
   .guess {
     width: 17rem;
-    padding-left: 7rem;
   }
 }
 @media screen and (max-width: 524px) {
   .guess_placeholder {
-    top: 19.5rem;
+    top: 19.7rem;
     left: 7rem;
     font-size: 12px;
   }
 
   .guess {
     width: 17rem;
-    padding-left: 7rem;
   }
 }
 @media screen and (max-width: 460px) {
@@ -110,7 +115,6 @@
 
   .guess {
     width: 15em;
-    padding-left: 7em;
     border-radius: 6px;
   }
 }
@@ -118,16 +122,22 @@
 
 /* BOX SECTION */
 
-@media screen and (max-width: 1300px) {
+@media screen and (min-width: 1090px) {
   .container {
-    margin-left: -12rem;
+    margin-left: 2.3rem;
     max-width: 80px;
-    margin-top: 2rem;
   }
 }
-@media screen and (max-width: 955px) {
+@media screen and (max-width: 1090px) {
+  .container {
+    margin-left: -10.5rem;
+    max-width: 80px;
+  }
+}
+@media screen and (max-width: 960px) {
   .container {
     margin-left: -13.6rem;
+    margin-top: 2rem;
   }
 }
 @media screen and (max-width: 897px) {
@@ -185,7 +195,7 @@
 }
 @media screen and (max-width: 620px) {
   .container {
-    margin-left: -17rem;
+    margin-left: -16.5rem;
     margin-top: 2rem;
   }
   .box {

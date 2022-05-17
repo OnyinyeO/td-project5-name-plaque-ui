@@ -11,7 +11,7 @@ body {
 /* TOP SECTION */
 .top {
   margin: 13vh auto auto auto;
-  width: 50%;
+  width: 70%;
   padding: 48px;
   color: white;
   font-size: large;
@@ -150,9 +150,10 @@ body {
 /* FOOTER*/
 .foot {
   font-size: small;
-  margin-top: 40%;
+  margin-top: 16rem;
   color: whitesmoke;
   font-weight: 600;
   text-align: center;
-  margin-left: 0%;
+  margin-left: 2rem;
+  margin-bottom: 3rem;
 }
