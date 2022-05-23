@@ -15,8 +15,8 @@
         <h1 class="game_name">Name Plaque Application</h1>
         <P class="name2">Add any name of your choice and we will show you how much it will cost. (Each letter is $5)
         </P>
-        <input type="text" placeholder="" class="guess">
-        <label class="guess_placeholder">Enter a guess:</label>
+        <input type="text" placeholder="" class="guess" name="inputName" id="guessField">
+        <label class="guess_placeholder" for="inputName">Enter a guess:</label>
     </section>
 
     <div class="container">
@@ -25,10 +25,10 @@
             <div class="box2"></div>
             <div class="circle1"></div>
             <div class="circle2"></div>
-            <p class="name">ONYINYE OCHI</p>
+            <p class="name">Your name</p>
         </div>
-        <div class="btn1"> Total: $50 </div>
-        <button class="btn2"> Buy Now </button>
+        <div class="btn1"> Total: <span id="plaquePrice">$0</span></div>
+        <button class="btn2" id="buy_btn">Buy Now</button>
     </div>
 
     <footer class="foot">
@@ -36,6 +36,9 @@
         <p class="jazz">J@ZmiNe</p>
 
     </footer>
+
+    <script src="script.js"></script>
+    <script src="buy_now.js"></script>
 </body>
 
 </html>
